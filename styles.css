@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .nav li {
+    display: inline-block;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .nav li {
+    display: inline-block;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .form-section {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
